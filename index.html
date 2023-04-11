@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="bootstrap.css" class="css" />
+    <link rel="stylesheet" href="alramclock.css" class="css" />
+  </head>
+
+  <body>
+    <div class="conatainer m-lg-5"align="center">
+      <header
+      class="display-1 m-1 p-2"
+      style="font-family: 'Times New Roman', Times, serif"
+      align="center"
+    >
+      Alarm Clock⏰
+    </header>
+      <div class="p-3 m-3 ct">
+        <p class="display-5 fw-semibold">Current Time</p>
+        <label id="hour" class="display-6 fw-bold"></label>
+      </div>
+      <div class="time p-2 m-4">
+        <p class="fw-semibold fs-3 f">Choose Time</p>
+        <select class="dd">
+          <option>Hour</option>
+        </select>
+        <select class="dd">
+          <option>Minutes</option>
+        </select>
+        <select class="dd">
+          <option>Seconds</option>
+        </select>
+      </div>
+      <div class="m-3">
+        <button type="button" class="btn btn-primary m-2" id="set">SET Alarm</button>
+        <button type="button" class="btn btn-primary m-2" id="stop">STOP Alarm</button>
+      </div>
+      <div class="alert-danger fs-4" id="error">
+
+      </div>
+    </div>
+    <div class="align-bottom display-6 m-3"><marquee>Created By Tarun Prajapati👨‍💻</marquee</div>
+    <script src="alarmclock.js"></script>
+  </body>
+</html>
